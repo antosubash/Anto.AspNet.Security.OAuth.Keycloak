@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <PackageId>Anto.AspNet.Security.OAuth.Keycloak</PackageId>
+    <Description>ASP.NET Core security provider enabling Keycloak authentication.</Description>
+    <Authors>Anto Subash</Authors>
+    <PackageTags>keycloak;aspnetcore;authentication;oauth;security</PackageTags>
+    <Version>0.0.1</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="JetBrains.Annotations" Version="2021.1.0" />
+  </ItemGroup>
+
+</Project>
